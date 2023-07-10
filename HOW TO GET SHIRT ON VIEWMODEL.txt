@@ -1,0 +1,6 @@
+-- Delete AnimationController
+-- Insert Humanoid
+-- Set PhysicsGroup
+-- Change Hands' Class from MeshParts to Parts
+-- Rotate Y by 90 degress
+-- Insert Shirt

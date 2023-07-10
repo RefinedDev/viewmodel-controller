@@ -1,0 +1,55 @@
+{
+  "name": "Whole Lotta Weapons",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/rep_storage",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterPack": {
+      "$path": "src/starterpack",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerScriptService": {
+      "$path": "src/sss",
+      "$ignoreUnknownInstances": true
+    },
+    "StarterPlayer": {
+      "StarterCharacterScripts": {
+        "$path": "src/starter_player/starter_character_scripts",
+        "$ignoreUnknownInstances": true
+      },
+      "StarterPlayerScripts": {
+        "$path": "src/starter_player/starter_player_scripts",
+        "$ignoreUnknownInstances": true
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      }
+    }
+  }
+}
